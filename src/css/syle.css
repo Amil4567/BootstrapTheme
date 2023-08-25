@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    text-align: center;
+    background-image: url("../../src/img/bg-masthead.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 20rem;
+}
+
+.first h1{
+    color: #fff;
+    font-size: 36px;
+    margin: 0px 0px 8px;
+    padding: 12px;
+}
+
+.first hr{
+    background-color: #f4623a;
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem;
+    margin-left: 25.9rem;
+
+}
+
+.first p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    padding: 0px 12px;
+    margin-bottom: 50px;
+}
+
+.first a{
+    color: #FFFFFF;
+    font-size: 13.6px;
+    text-decoration: none;
+    background-color: #F4632A;
+    padding: 20px 36px;
+    border: none;
+    border-radius: 10rem;
+    transition: 0.3s;
+
+
+}
+
+
+
+.first a:hover{
+    background-color: #cf5331;
+}
+
+
+
+
+.second{
+    background-color: rgb(244, 98, 58);
+    width: 100%;
+    background-size: cover;
+    padding: 8rem;
+    text-align: center;
+}
+
+.second h2{
+    color: #FFFFFF;
+    font-size: 30.7616px;
+}
+
+
+.second hr{
+    background-color: #FFFFFF;
+    margin: 24px 610px;
+}
+
+.second p{
+    color: #FFFFFFBF;
+    font-size: 45px;
+    margin: 0px 0px 24px;
+}
+
+.second a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    color: #000000;
+    padding: 1.5rem 2rem;
+    border: none;
+    border-radius: 10rem;
+    transition: 0.3s;
+}
+
+
+.second a:hover{
+    background-color: #d3d4d5;
+}
+
+
+
+.third{
+    width: 100%;
+    padding: 20rem;
+
+}
+
+.third h2{
+    text-align: center;
+    color: #212529;
+    margin: 0px 0px 8px;
+}
+
+.third hr{
+    background-color: #f4623a;
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem;
+    margin-left: 25.9rem;
+
+}
+
+.third p{
+    font-size: 28px;
+    color: #6c757d;
+    margin: 3rem;
+
+}
+
+.third input{
+    
+    width: 100%;
+    height: calc(3.5rem + 2px);
+    padding: 16px 12px;
+    margin: 0.7rem;
+    border: solid #ced4da;
+    border-radius: 0.375rem;
+}
+
+
+.third textarea{
+    width: 100%;
+    height: calc(3.5rem + 2px);
+    margin: 0.7rem;
+    border: solid #ced4da;
+    border-radius: 0.375rem;
+}
+
+.third button{
+    width: 100%;
+    border: none;
+    background-color: #f4623a;
+    border-color: #f4623a;
+    border-radius: 0.375rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 1.25rem 2.25rem;
+    /* margin: 0,7rem; */
+}
